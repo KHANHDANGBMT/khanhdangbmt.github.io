@@ -13,7 +13,7 @@ body {
   color: var(--text-color);
 }
 
-/* Global */
+
 svg {
   width: 1.5rem;
 }
@@ -32,7 +32,7 @@ button.icon {
   height: 100%;
 }
 
-/* header */
+
 header.header {
   position: fixed;
   top: 0;
@@ -58,7 +58,7 @@ header .logo span {
   margin-left: 0.5rem;
 }
 
-/* Post */
+
 .article {
   margin: 4rem 0;
 }
@@ -66,7 +66,7 @@ header .logo span {
   width: 100%;
 }
 
-/* Code */
+
 .code {
   position: relative;
 }

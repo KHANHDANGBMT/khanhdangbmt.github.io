@@ -1,21 +1,10 @@
-import { useContext } from "react";
-import { ThemeContext } from "../App";
-import { LogoIcon, MoonIcon, SunIcon } from "./assets/icons";
+import './assets/css/header.css';
 
-const Header = () => {
-  const { isDark, setIsDark } = useContext(ThemeContext);
+const Header = (props) => {
 
   return (
-    <header className="header">
-      <div className="container">
-        <div className="logo-wrapper">
-          <div className="logo">
-            <LogoIcon />
-            <span>JS Snipets</span>
-          </div>
-          <button onClick={() => setIsDark(!isDark)} className="icon">{isDark ? <MoonIcon /> : <SunIcon />}</button>
-        </div>
-      </div>
+    <header className="header-background">
+      <div className="bg-animation">{props.children}</div>
     </header>
   );
 };

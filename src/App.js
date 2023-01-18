@@ -2,6 +2,7 @@ import { createContext, useState } from 'react';
 import Header from './components/Header';
 import Intro from './components/Intro';
 import NavBar from './components/NavBar';
+import "./components/assets/css/bootstrap.css";
 
 // Create Context
 export const ThemeContext = createContext();

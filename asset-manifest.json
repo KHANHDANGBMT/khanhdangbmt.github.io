@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1ad229b.css",
-    "main.js": "/static/js/main.63282398.js",
+    "main.css": "/static/css/main.0d646227.css",
+    "main.js": "/static/js/main.9fa1d775.js",
     "static/media/avt.jpg": "/static/media/avt.36325a4e9819462d4248.jpg",
     "static/media/logo-no-background.png": "/static/media/logo-no-background.58c0551c96cb9d922b37.png",
     "index.html": "/index.html",
-    "main.e1ad229b.css.map": "/static/css/main.e1ad229b.css.map",
-    "main.63282398.js.map": "/static/js/main.63282398.js.map"
+    "main.0d646227.css.map": "/static/css/main.0d646227.css.map",
+    "main.9fa1d775.js.map": "/static/js/main.9fa1d775.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1ad229b.css",
-    "static/js/main.63282398.js"
+    "static/css/main.0d646227.css",
+    "static/js/main.9fa1d775.js"
   ]
 }

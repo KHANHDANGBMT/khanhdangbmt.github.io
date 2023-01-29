@@ -1,9 +1,7 @@
-import $ from "jquery";
 import './assets/css/navbar.css';
 import React from "react";
 
 import logo1 from "./assets/images/logo-no-background.png";
-import logo2 from "./assets/images/male.png";
 
 class Navbar extends React.Component {
   constructor() {
@@ -14,24 +12,6 @@ class Navbar extends React.Component {
   }
 
   componentDidMount() {
-    const nav = $("nav");
-    let navHeight = nav.outerHeight();
-
-    // $(".navbar-toggler").on("click", function() {
-    //   if (!$("#mainNav").hasClass("navbar-reduce")) {
-    //     $("#mainNav").addClass("navbar-reduce");
-    //   }
-    // });
-
-    // $("body").scrollspy({
-    //   target: "#mainNav",
-    //   offset: navHeight
-    // });
-
-    // $(".js-scroll").on("click", function() {
-    //   $(".navbar-collapse").collapse("hide");
-    // });
-
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 50) {
         document
@@ -40,7 +20,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-trans");
-        this.setState({ logo: logo2 });
+        this.setState({ logo: logo1 });
       } else {
         document
           .querySelector(".navbar-expand-md")
@@ -50,33 +30,6 @@ class Navbar extends React.Component {
           .classList.remove("navbar-reduce");
         this.setState({ logo: logo1 });
       }
-    });
-
-    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
-      if (
-        window.location.pathname.replace(/^\//, "") ===
-          this.pathname.replace(/^\//, "") &&
-        window.location.hostname === this.hostname
-      ) {
-        var target = $(this.hash);
-        target = target.length
-          ? target
-          : $("[name=" + this.hash.slice(1) + "]");
-        if (target.length) {
-          $("html, body").animate(
-            {
-              scrollTop: target.offset().top - navHeight + 5
-            },
-            1000,
-            "easeInExpo"
-          );
-          return false;
-        }
-      }
-    });
-
-    $(".js-scroll").on("click", function() {
-      $(".navbar-collapse").collapse("hide");
     });
   }
 
@@ -91,7 +44,7 @@ class Navbar extends React.Component {
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "200px" }}
+              style={{ maxWidth: "100px" }}
             />
           </a>
           <button
@@ -113,22 +66,22 @@ class Navbar extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link js-scroll active" href="#home">
+                <a className="nav-link js-scroll nav-custom" href="#home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#about">
+                <a className="nav-link js-scroll nav-custom" href="#about">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#work">
+                <a className="nav-link js-scroll nav-custom" href="#work">
                   Work
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#contact">
+                <a className="nav-link js-scroll nav-custom" href="#contact">
                   Contact
                 </a>
               </li>

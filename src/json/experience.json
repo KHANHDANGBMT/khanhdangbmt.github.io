@@ -1,0 +1,64 @@
+{
+  "experience": [
+    {
+      "name": "Pscd",
+      "fromDate": "Sep 2020",
+      "toDate": "Jan 2022",
+      "project": [
+        {
+          "name": "Station management",
+          "position": "Backend",
+          "teamSize": 7,
+          "technical": ["ReactJS", "Material UI"],
+          "description": "This application serve for manage station. Manager can view and create a maintenance station, employee view request, approve and report after clean or maintenance station."
+        },
+        {
+          "name": "Bensist",
+          "position": "Backend",
+          "teamSize": 5,
+          "technical": ["Mongodb", "Nodejs", "RestFul"],
+          "description": "The selling system to help suppliers sell their goods at the most favorable prices for employees as a year-end bonus via the contract with their company.",
+          "responsibility": "Design database, develop backend API, consulting for customers."
+        }
+      ],
+      "detail": "The first company I'm working for after graduation. I'm worked as a frontend and backend here. A lot of fronend knowledge for develop app, maintain, responsive website. There is also design database, build source code, deploy ubuntu server. I realize backend is my strength at this time."
+    },
+    {
+      "name": "Bizverse",
+      "fromDate": "Feb 2022",
+      "toDate": "August 2022",
+      "project": [
+        {
+          "name": "Bizverse Claim BIVE TOKEN",
+          "position": "Frontend",
+          "technical": ["ReactJS", "Web3"],
+          "description": "The system to claim token via each IDO whitelist.",
+          "responsibility": "Develop Frontend, interact with web3 and smart contract",
+          "teamSize": 3
+        },
+        {
+          "name": "Bizverse Rentall",
+          "position": "Backend",
+          "technical": ["Nodejs", "MySQL", "GraphQL", "Sequelize"],
+          "teamSize": 10,
+          "description": "The booking system, woking with NFT, cancel flow,...",
+          "responsibility": "Develop API, manage server, payment implementation, discuss and come up with solutions, send mail notifications, clean code."
+        }
+      ],
+      "detail": "I have learned a lot about teamwork and interacting with customers. Maintain and develop features for the system."
+    },
+    {
+      "name": "NeoX",
+      "fromDate": "August 2022",
+      "toDate": "Now",
+      "project": [
+        {
+          "name": "NeoX",
+          "position": "Backend",
+          "technical": ["Nodejs", "MongoDB", "Microservice", "Moleculer", "TypeScript"]
+        }
+      ],
+      "detail": "Learned clean code and clean architecture. I have a chance to learn about microservice systems, design patterns, and typescripts and apply them to company projects."
+    }
+  ]
+}

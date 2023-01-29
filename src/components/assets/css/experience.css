@@ -1,0 +1,106 @@
+.experience-wrapper {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.react-tabs__tab--selected {
+  background: unset;
+  color: rgb(100, 255, 218);
+}
+
+.react-tabs__tab:focus:after {
+  background: unset;
+}
+
+.react-tabs {
+  color: #b8d1e9;
+  width: 100%;
+}
+
+.tab-list-wrapper {
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
+
+.date-exp {
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+    'Lucida Console', Monaco, monospace;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  color: rgb(168, 178, 209);
+}
+
+.exp-project::before {
+  content: '▹';
+  position: absolute;
+  left: 0px;
+  color: rgb(100, 255, 218);
+}
+
+.exp-project {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.exp-project-position {
+  margin: unset;
+}
+
+.exp-project-wrapper {
+  position: relative;
+}
+
+.exp-project-technical-wrapper {
+  margin-bottom: 10px;
+}
+
+.label-custom {
+  color: rgb(100, 255, 218);
+  background-color: transparent;
+  border: 1px solid rgb(100, 255, 218);
+  border-radius: 3px;
+  padding: 0.25rem 0.25rem;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+    'Lucida Console', Monaco, monospace;
+  line-height: 1;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.text-highlight {
+  position: relative;
+  padding-left: 10px;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+    'Lucida Console', Monaco, monospace;
+  font-size: 15px;
+  color: rgb(100, 255, 218);
+}
+
+.text-highlight-desc {
+  position: relative;
+  padding-left: 10px;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+    'Lucida Console', Monaco, monospace;
+  font-size: 15px;
+  /* color: rgb(100, 255, 218); */
+}
+
+.text {
+  margin: 0
+}
+
+.desc {
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.current-company {
+  color: aqua;
+}

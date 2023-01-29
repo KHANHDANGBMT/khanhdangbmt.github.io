@@ -1,9 +1,9 @@
 import { createContext, useState } from 'react';
-import Header from './components/Header';
-import Intro from './components/Intro';
-import NavBar from './components/NavBar';
 import './components/assets/css/bootstrap.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/Header';
+import Post from './components/Post';
+import PostList from './components/PostList';
 
 // Create Context
 export const ThemeContext = createContext();
@@ -20,11 +20,9 @@ function App() {
     <ThemeContext.Provider value={value}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Header />}>
-            {/* <Route index element={<Home />} />
-            <Route path="blogs" element={<Blogs />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<NoPage />} /> */}
+          <Route exact path="/posts" element={<PostList />} />
+          <Route exact path="/post/:id" element={<Post />} />
+          <Route exact path="/" element={<Home />}>
           </Route>
         </Routes>
       </BrowserRouter>

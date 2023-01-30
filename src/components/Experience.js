@@ -75,7 +75,7 @@ const Experience = () => {
     );
   });
   return (
-    <div className="container experience-wrapper">
+    <div className="container experience-wrapper" id="work">
       <div className="experience">
         <h3 className="numbered-heading">
           <span className="number-head">02.</span>

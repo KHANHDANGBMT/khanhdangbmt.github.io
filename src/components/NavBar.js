@@ -72,7 +72,7 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll nav-custom" href="#about">
-                  About
+                  About me
                 </a>
               </li>
               <li className="nav-item">

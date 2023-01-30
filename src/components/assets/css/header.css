@@ -1012,3 +1012,7 @@
     transform: translateY(-2000px);
   }
 }
+
+.header-body {
+  background: #0a192f
+}

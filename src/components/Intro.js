@@ -7,7 +7,7 @@ const Intro = () => {
       <div className="intro-content display-table">
         <div className="table-cell">
           <div className="container title-center-column">
-            <h1 className="intro-title mb-4">Hello, I am Khanh</h1>
+            <h1 className="intro-title mb-4">Hello World, I am Khanh</h1>
             <p className="intro-subtitle">
               <span className="text-slider-items"></span>
               <strong className="text-slider">

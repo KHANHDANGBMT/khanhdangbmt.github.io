@@ -3,7 +3,7 @@ import avt from './assets/images/avt.jpg';
 
 const About = (props) => {
   return (
-    <div className="container about">
+    <div className="container about" id="about">
       <div className="about-me">
         <h3 className="numbered-heading">
           <span className="number-head">01.</span>

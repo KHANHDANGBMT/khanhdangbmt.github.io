@@ -1,7 +1,7 @@
 import './assets/css/navbar.css';
-import React from "react";
+import React from 'react';
 
-import logo1 from "./assets/images/logo-no-background.png";
+import logo1 from './assets/images/logo-no-background.png';
 
 class Navbar extends React.Component {
   constructor() {
@@ -11,23 +11,34 @@ class Navbar extends React.Component {
     };
   }
 
+  handleScroll(e) {
+    e.preventDefault();
+    const dataId = e.target.getAttribute('data-id');
+    const element = document.getElementById(dataId);
+    const titleTopPosition = element?.offsetTop;
+    window.scrollTo({
+      top: titleTopPosition - 50,
+      behavior: 'smooth'
+    });
+  }
+
   componentDidMount() {
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       if (window.pageYOffset > 50) {
         document
-          .querySelector(".navbar-expand-md")
-          .classList.add("navbar-reduce");
+          .querySelector('.navbar-expand-md')
+          .classList.add('navbar-reduce');
         document
-          .querySelector(".navbar-expand-md")
-          .classList.remove("navbar-trans");
+          .querySelector('.navbar-expand-md')
+          .classList.remove('navbar-trans');
         this.setState({ logo: logo1 });
       } else {
         document
-          .querySelector(".navbar-expand-md")
-          .classList.add("navbar-trans");
+          .querySelector('.navbar-expand-md')
+          .classList.add('navbar-trans');
         document
-          .querySelector(".navbar-expand-md")
-          .classList.remove("navbar-reduce");
+          .querySelector('.navbar-expand-md')
+          .classList.remove('navbar-reduce');
         this.setState({ logo: logo1 });
       }
     });
@@ -44,7 +55,7 @@ class Navbar extends React.Component {
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "100px" }}
+              style={{ maxWidth: '100px' }}
             />
           </a>
           <button
@@ -71,17 +82,32 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll nav-custom" href="#about">
+                <a
+                  className="nav-link js-scroll nav-custom"
+                  href="#about"
+                  data-id="about"
+                  onClick={(e) => this.handleScroll(e)}
+                >
                   About me
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll nav-custom" href="#work">
+                <a
+                  className="nav-link js-scroll nav-custom"
+                  href="#work"
+                  data-id="work"
+                  onClick={(e) => this.handleScroll(e)}
+                >
                   Work
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll nav-custom" href="#contact">
+                <a
+                  className="nav-link js-scroll nav-custom"
+                  href="#contact"
+                  data-id="contact"
+                  onClick={(e) => this.handleScroll(e)}
+                >
                   Contact
                 </a>
               </li>

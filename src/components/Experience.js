@@ -3,9 +3,7 @@ import './assets/css/about.css';
 import 'react-tabs/style/react-tabs.css';
 import './assets/css/experience.css';
 import listExp from '../json/experience.json';
-import {
-  CheckIcon
-} from './assets/icons';
+import { CheckIcon } from './assets/icons';
 import { useState } from 'react';
 
 const Experience = () => {
@@ -74,6 +72,7 @@ const Experience = () => {
       </TabPanel>
     );
   });
+
   return (
     <div className="container experience-wrapper" id="work">
       <div className="experience">
@@ -82,7 +81,10 @@ const Experience = () => {
           Experience
         </h3>
         <div className="tab-list-wrapper">
-          <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+          <Tabs
+            selectedIndex={tabIndex}
+            onSelect={(index) => setTabIndex(index)}
+          >
             <TabList>{tabList}</TabList>
             {tabPanel}
           </Tabs>

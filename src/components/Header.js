@@ -14,19 +14,16 @@ const Home = (props) => {
           <div id="stars" />
           <div id="stars2" />
           <div id="stars3" />
-          <Navbar />
-          <Intro />
         </div>
-      </header>
-      <div className="header-body">
+        <Navbar />
+        <Intro />
         <About />
         <Experience />
         <ContactMe />
         <footer>
           <div className="bottom">Revised by Khanh Dang</div>
         </footer>
-      </div>
-      {/* <About /> */}
+      </header>
     </>
   );
 };

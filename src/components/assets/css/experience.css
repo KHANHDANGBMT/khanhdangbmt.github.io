@@ -104,3 +104,18 @@
 .current-company {
   color: aqua;
 }
+
+@media (min-width: 320px) {
+  .experience {
+    width: inherit;
+  }
+
+  .exp-project-technical-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  
+}

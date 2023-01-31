@@ -175,9 +175,66 @@
   display: inline;
 }
 
-/* @media (min-width: 320px) {
+@media (min-width: 320px) {
   .about {
     display: flex;
     flex-direction: column;
   }
-} */
+
+  .about-me {
+    width: inherit;
+  }
+
+  .list-tech {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .label-custom {
+    margin-bottom: 10px;
+  }
+
+  .box {
+    width: 300px;
+    height: 300px;
+  }
+
+  .box-wrapper {
+    min-height: 40vh;
+  }
+}
+
+@media (min-width: 872px) {
+  .box-wrapper {
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-me {
+    width: inherit;
+  }
+
+  .list-tech {
+    display: unset;
+    flex-wrap: wrap;
+  }
+
+  .label-custom {
+    margin-bottom: 10px;
+  }
+
+  .box {
+    width: 400px;
+    height: 400px;
+  }
+
+  .box-wrapper {
+    min-height: 80vh;
+  }
+}

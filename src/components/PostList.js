@@ -1,35 +1,38 @@
-import Markdown from 'markdown-to-jsx';
 import { useEffect, useState } from 'react';
-import Code from './Code';
-import listPost from '../json/blogIndex.json'
+import listPost from '../json/blogIndex.json';
+import './assets/css/postList.css';
+import './assets/css/header.css';
+import Navbar from './NavBar';
 
 const PostList = () => {
   const [postList, setPostList] = useState('');
-  console.log(listPost);
 
   useEffect(() => {
-    setPostList(listPost)
+    const postList = listPost.routes.map((item) => (
+      <div className="post-child">
+        <div className="post-text">
+          <p className="post-tag">{item.title}</p>
+          <h5 className="post-title">{item.title}</h5>
+          <p className="post-reading-time">{item.readingTime}</p>
+          <p className="post-date">{item.date}</p>
+        </div>
+        <div className="post-img"></div>
+      </div>
+    ));
+    setPostList(postList);
   }, []);
 
   return (
     <>
-      <article className="article">
-        <div className="container">
-          <div className="post-wrapper">
-            <Markdown
-              options={{
-                overrides: {
-                  Code: {
-                    component: Code
-                  }
-                }
-              }}
-            >
-              {JSON.stringify(postList)}
-            </Markdown>
-          </div>
+      <div className="container blog-wrapper">
+        <Navbar className="custom" />
+        <div className="blog-intro">
+            Khanh Dang blog:{' '}
+            <span class="FewWi">knowledge, and  experience to elevate our minds</span>
         </div>
-      </article>
+        <h4 className="post-list-title">All stories</h4>
+        <div className="post-wrapper">{postList}</div>
+      </div>
     </>
   );
 };

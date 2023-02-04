@@ -29,7 +29,6 @@ function App() {
               </Background>
             }
           />
-          <Route exact path="/background" element={<Background />} />
           <Route
             exact
             path="/"

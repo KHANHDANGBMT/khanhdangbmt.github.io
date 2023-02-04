@@ -8,9 +8,6 @@ const Background = (props) => {
       <div id="stars3" />
     </div>
     {props.children}
-    <footer>
-      <div className="bottom">Revised by Khanh Dang</div>
-    </footer>
   </header>
   );
 };

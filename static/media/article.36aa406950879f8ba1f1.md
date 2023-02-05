@@ -1,3 +1,7 @@
+<Metric>
+
+</Metric>
+
 # Useful JavaScript Code Snippets
 # Useful JavaScript Code Snippets
 

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[989],{989:function(t,e,i){t.exports=i.p+"static/media/jsfiddle-integration.a7434f03b02418f8a14b.md"}}]);

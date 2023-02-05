@@ -3,6 +3,11 @@
     {
       "path": "/blog/2013/06/05/why-react.md",
       "date": "2013-06-05",
+      "title": "Why did we build React?",
+      "author": [
+        "petehunt"
+      ],
+      "tag": "React",
       "readingTime": "3 min read"
     },
     {
@@ -18,6 +23,11 @@
     {
       "path": "/blog/2022/02/article.md",
       "date": "2022-02-article.md",
+      "title": "Useful JavaScript Code Snippets",
+      "author": [
+        "petehunt"
+      ],
+      "tag": "React",
       "readingTime": "2 min read"
     }
   ]

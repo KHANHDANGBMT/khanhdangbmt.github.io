@@ -87,7 +87,7 @@ class Navbar extends React.Component {
                   Blog
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link js-scroll nav-custom"
                   href="#about"
@@ -116,7 +116,7 @@ class Navbar extends React.Component {
                 >
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

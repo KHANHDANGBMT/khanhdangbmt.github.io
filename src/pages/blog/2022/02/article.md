@@ -1,9 +1,11 @@
-<Metric>
-
-</Metric>
+---
+title: Useful JavaScript Code Snippets
+author: [petehunt]
+tag: React
+---
 
 # Useful JavaScript Code Snippets
-# Useful JavaScript Code Snippets
+
 
 1. Sort an Array
 

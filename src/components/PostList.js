@@ -14,7 +14,15 @@ const PostList = () => {
         <div className="post-child" key={index + new Date().getTime()}>
           <div className="post-text">
             <p className="post-tag">{item.tag}</p>
-            <Link className="post-title" to={item.path}>
+            <Link
+              className="post-title"
+              to={item.path}
+              state={{
+                tag: item.tag,
+                date: item.date,
+                readingTime: item.readingTime
+              }}
+            >
               {' '}
               {item.title}
             </Link>

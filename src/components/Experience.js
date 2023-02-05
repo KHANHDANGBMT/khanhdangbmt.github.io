@@ -10,7 +10,7 @@ const Experience = () => {
   const [tabIndex, setTabIndex] = useState(2);
   const tabList = listExp.experience.map((item, index) => {
     return (
-      <Tab active>
+      <Tab active key={index}>
         {item.name}{' '}
         {index === listExp.experience.length - 1 ? <CheckIcon /> : ''}
       </Tab>
@@ -19,7 +19,7 @@ const Experience = () => {
 
   const tabPanel = listExp.experience.map((item, index) => {
     return (
-      <TabPanel tabIndex={index}>
+      <TabPanel tabIndex={index} key={index}>
         <p>
           <span className="date-exp">
             {item.fromDate} - {item.toDate}
@@ -27,9 +27,9 @@ const Experience = () => {
         </p>
         <p className="">{item.detail}</p>
         Project:
-        {item.project.map((item) => {
+        {item.project.map((item, index) => {
           return (
-            <p className="exp-project-wrapper">
+            <p className="exp-project-wrapper" key={index}>
               <p className="exp-project">
                 <p className="text">
                   Name: <span className="text-highlight">{item.name}</span>

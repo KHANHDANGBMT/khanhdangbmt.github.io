@@ -1,7 +1,52 @@
 .post-wrapper {
-  margin-top: 100px;
   color: white!important;
+  
 }
 h2 {
   color: white;
+}
+
+.article-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.article-content > div {
+  width: inherit;
+}
+
+.tag {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: normal;
+  border: 2px solid rgb(218, 220, 224);
+  width: fit-content;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+body {
+  color: white
+}
+
+.code {
+  position: relative;
+}
+.code .copy-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 5;
 }

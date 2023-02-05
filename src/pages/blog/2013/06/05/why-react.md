@@ -1,7 +1,8 @@
----
+<Metric>
 title: Why did we build React?
 author: [petehunt]
----
+tag: React
+</Metric>
 
 There are a lot of JavaScript MVC frameworks out there. Why did we build React
 and why would you want to use it?

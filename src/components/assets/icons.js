@@ -74,7 +74,7 @@ export const CheckIcon = () => (
     width="60px"
     height="20px"
     viewBox="0 -56 1136 1136"
-    class="icon"
+    className="icon"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
   >

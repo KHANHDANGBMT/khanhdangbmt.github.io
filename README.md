@@ -19,6 +19,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 - npm run deploy
 
+### Run blog index script
+
+- Add "type": "module" in package.json file
+- run npm run run-script
+
 ### Video Tutorial
 
 You can see my youtube video for this project in [here](https://youtu.be/Od-Uj5RSsuM)

@@ -1,3 +1,8 @@
+<Metric>
+
+</Metric>
+
+# Useful JavaScript Code Snippets
 # Useful JavaScript Code Snippets
 
 1. Sort an Array

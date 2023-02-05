@@ -7,7 +7,7 @@ import { CopyIcon, PasteIcon } from './assets/icons';
 
 const Code = ({ children, language }) => {
   const [copied, setCopied] = useState(false);
-  const { isDark } = useContext(ThemeContext);
+  // const { isDark } = useContext(ThemeContext);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,7 +25,7 @@ const Code = ({ children, language }) => {
       </CopyToClipboard>
       <SyntaxHighlighter
         language={language}
-        style={isDark ? materialDark : materialLight}
+        style={materialDark}
       >
         {children}
       </SyntaxHighlighter>

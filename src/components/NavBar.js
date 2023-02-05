@@ -2,6 +2,7 @@ import './assets/css/navbar.css';
 import React from 'react';
 
 import logo1 from './assets/images/logo-no-background.png';
+import { Link } from 'react-router-dom';
 
 class Navbar extends React.Component {
   constructor() {
@@ -77,14 +78,14 @@ class Navbar extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link js-scroll nav-custom" href="/">
+                <Link to="/" className="nav-link js-scroll nav-custom">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll nav-custom" href="blog">
+                <Link to="/blog" className="nav-link js-scroll nav-custom">
                   Blog
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a

@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react';
-import listPost from '../json/blogIndex.json';
 import './assets/css/postList.css';
 import './assets/css/header.css';
-import Navbar from './NavBar';
 import { Link } from 'react-router-dom';
 
 const PostList = () => {
-  const [postList, setPostList] = useState('');
+  const [postList, setPostList] = useState([]);
 
   useEffect(() => {
     import('../json/blogIndex.json').then((res) => {

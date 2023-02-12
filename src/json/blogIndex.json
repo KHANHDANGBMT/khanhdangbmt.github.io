@@ -1,34 +1,14 @@
 {
   "routes": [
     {
-      "path": "/blog/2013/06/05/why-react.md",
-      "date": "2013-06-05",
-      "title": "Why did we build React?",
+      "path": "/blog/2022/02/12/logging-levels.md",
+      "date": "2022-02-12",
+      "title": "Logging levels",
       "author": [
-        "petehunt"
+        "Khanhdq"
       ],
-      "tag": "React",
-      "readingTime": "3 min read"
-    },
-    {
-      "path": "/blog/2013/06/02/jsfiddle-integration.md",
-      "date": "2013-06-02",
-      "title": "JSFiddle Integration",
-      "author": [
-        "vjeux"
-      ],
-      "tag": "Javascript",
-      "readingTime": "2 min read"
-    },
-    {
-      "path": "/blog/2022/02/article.md",
-      "date": "2022-02-article.md",
-      "title": "Useful JavaScript Code Snippets",
-      "author": [
-        "petehunt"
-      ],
-      "tag": "React",
-      "readingTime": "2 min read"
+      "tag": "Clean code",
+      "readingTime": "5 min read"
     }
   ]
 }

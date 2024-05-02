@@ -1,5 +1,5 @@
-import './assets/css/about.css';
-import avt from './assets/images/avt.jpg';
+import "./assets/css/about.css";
+import avt from "./assets/images/avt.jpg";
 
 const About = (props) => {
   return (
@@ -12,13 +12,13 @@ const About = (props) => {
         <p>
           Hello! Wonderful, I got introduced to programming in my freshman year
           at University of Danang - University of Science and Technology, where
-          I completed my{' '}
+          I completed my{" "}
           <a
             href="https://drive.google.com/file/d/1A2Zv2X8Y1brs3QctlQYOvyijnjj8tN69/view?usp=share_link"
             className="hyper-link"
           >
             Information Technology Engineering Degree
-          </a>{' '}
+          </a>{" "}
           (2017-2022) with 3.14/4 score.
         </p>
 
@@ -45,11 +45,12 @@ const About = (props) => {
         </p>
 
         <p>
-          Besides, I have two scientific papers published in IEE and MDPI which
-          are:
+          Besides, I have three scientific papers published in IEEE, MDPI, and
+          conferences papers which are:
         </p>
         <p className="child-tab">
           <a
+            target="blank"
             href="https://ieeexplore.ieee.org/abstract/document/9794726"
             className="hyper-link"
           >
@@ -58,10 +59,21 @@ const About = (props) => {
         </p>
         <p className="child-tab">
           <a
+            target="blank"
             href="https://www.mdpi.com/2079-9292/10/19/2403"
             className="hyper-link"
           >
             A Behavior-Based Malware Spreading Model for Vehicle-to-Vehicle
+          </a>
+        </p>
+
+        <p className="child-tab">
+          <a
+            target="blank"
+            href="https://link.springer.com/chapter/10.1007/978-3-031-30258-9_50"
+            className="hyper-link"
+          >
+            Blockchain-Driven Hybrid Model for IoT Authentication
           </a>
         </p>
 

@@ -5,60 +5,113 @@
       "fromDate": "Sep 2020",
       "toDate": "Jan 2022",
       "project": [
-        {
+        {"href":"#",
           "name": "Station management",
-          "position": "Backend",
+          "position": "Frontend",
           "teamSize": 7,
-          "technical": ["ReactJS", "Material UI"],
-          "description": "This application serve for manage station. Manager can view and create a maintenance station, employee view request, approve and report after clean or maintenance station."
+          "technical": ["ReactJS", "Material UI", "HTML", "CSS", "Javascript"],
+          "responsibility":"Design mockup, implement UI flows, work with the client to get requirements, Build React applications for each role and test and commit the working flows.",
+          "description": "Imagine that you have many stations working around your country. Every month, your employee needs to maintain, cleans, replacing items from those stations. This application serves to manage that flow. The employee can submit the request to maintenance to 3 or 4 management levels above, and each manager can view and accept that request. After approval, the employee can process to maintain, clean, and take the image to prove that he has finished their work. "
         },
-        {
-          "name": "Bensist",
+        {"href":"https://app.bensist.com/",
+          "name": "Bensist - Danish Client",
           "position": "Backend",
           "teamSize": 5,
-          "technical": ["Mongodb", "Nodejs", "RestFul"],
-          "description": "The selling system to help suppliers sell their goods at the most favorable prices for employees as a year-end bonus via the contract with their company.",
-          "responsibility": "Design database, develop backend API, consulting for customers."
+          "technical": ["MongoDB", "Nodejs", "RestFull", "ExpressJS"],
+          "description": "Building the benefit application for the employee. Any company can integrate with the application and sign a contract for their employee benefit instead of giving the money to them. That will be advantageous to their employees more than money.",
+          "responsibility": "Design database, expose API, implement database, build project from scratch, working directly with the client to get requirements and implement it."
         }
       ],
-      "detail": "The first company I'm working for after graduation. I'm worked as a frontend and backend here. A lot of fronend knowledge for develop app, maintain, responsive website. There is also design database, build source code, deploy ubuntu server. I realize backend is my strength at this time."
+      "detail": "The first company I'm working for after graduation. I've worked as a frontend and backend here. A lot of frontend knowledge for developing an app, maintaining and responsive website. There is also a design database, build source code, and deploy Ubuntu server. I have a particular chance to join with both frontend and backend at this company."
     },
     {
       "name": "Bizverse",
       "fromDate": "Feb 2022",
       "toDate": "August 2022",
       "project": [
-        {
-          "name": "Bizverse Claim BIVE TOKEN",
-          "position": "Frontend",
-          "technical": ["ReactJS", "Web3"],
-          "description": "The system to claim token via each IDO whitelist.",
-          "responsibility": "Develop Frontend, interact with web3 and smart contract",
-          "teamSize": 3
-        },
-        {
+        {"href":"https://documentations.bizverse.world/rentall-in-bizverse/overview",
           "name": "Bizverse Rentall",
           "position": "Backend",
           "technical": ["Nodejs", "MySQL", "GraphQL", "Sequelize"],
           "teamSize": 10,
-          "description": "The booking system, woking with NFT, cancel flow,...",
-          "responsibility": "Develop API, manage server, payment implementation, discuss and come up with solutions, send mail notifications, clean code."
+          "description": "Rentall is the support application for the booking user with the NFT instead of reservation. Users can book the hotel and pay in cryptocurrency instead of traditional money. At check-in time, user can scan their NFT to get the rooms and support some traditional features like cancel payment, traditional payment (Stripe, PayPal, ... ), and refund.",
+          "responsibility": "Develop API, manage server, maintain source code, payment integration, discuss and come up with solutions, send mail notifications, apply clean code."
+        },
+        {
+          "href":"https://bive.bizverse.io/",
+          "name": "Bizverse Claim BIVE TOKEN",
+          "position": "Frontend",
+          "technical": ["ReactJS", "Web3"],
+          "description": "The system to claim tokens via each IDO whitelist. User login via their metamask wallet and get the Bive token after published at the end of the whitelist.",
+          "responsibility": "Build the web support for claim BIVE tokens. Integrate with metamask wallet.",
+          "teamSize": 3
+        },
+        {
+          "href":"#",
+          "name": "Virtual Browser",
+          "position": "Frontend",
+          "technical": ["C++", "Java"],
+          "description": "Custom the browser that will be used to connect directly to the VR of our company website supposed to the user who is using the Oculus Quest ",
+          "responsibility": "Custom Firefox open source to directly access to company VR website.",
+          "teamSize": 3
         }
       ],
-      "detail": "I have learned a lot about teamwork and interacting with customers. Maintain and develop features for the system."
+      "detail": "At this time, I have the chance to built frontend project from scratch. Config source structure, integrate to metamask, make transaction to retrieve BIVE tokens. On the other project, I have the opportunity to maintain exited NodeJS application and learn the pros and cons when enhance that application without the knowledge to maintain and grow the application."
     },
     {
+      "href":"https://neox.vn/en/",
       "name": "NeoX",
       "fromDate": "August 2022",
-      "toDate": "Now",
+      "toDate": "August 2023",
       "project": [
         {
+          "href":"#",
+          "name": "NeoX - Testing API system",
+          "position": "Frontend",
+          "technical": ["ReactJS", "TypeScript","Javascript", "HTML", "CSS"],
+          "description":"Imagine that you have a large system with multiple services and actions. How you can test whether specific actions belonging to one flow are working or not? This app resolves that scenario by calling each action individually.",
+          "responsibility": "Build the UI, handle logic when the user types, validate data, format following GET, POST, PUT, DELETE action, and send it to the backend system to process it."
+        },
+        {
+          "href":"https://neox.vn/en/",
           "name": "NeoX",
           "position": "Backend",
-          "technical": ["Nodejs", "MongoDB", "Microservice", "Moleculer", "TypeScript"]
+          "technical": ["Nodejs", "MongoDB", "Microservice", "Moleculer", "TypeScript", "Uni test", ""],
+          "description":"The payment system that focuses on payment and embedded finance solutions. Provide simple way to integrate with multiple banking system and support multiple services like collection, disbursement,... ",
+          "responsibility": "Join the team to build a collection service in the microservices. I  support the team for payment flow, push the file, and download reconciled file"
         }
       ],
-      "detail": "Learned clean code and clean architecture. I have a chance to learn about microservice systems, design patterns, and typescripts and apply them to company projects."
+      "detail": "I enjoy development and practicing with the team here. Feel grown day by day and have the chance to reach the good way to develop a good application. Thankful for the chance to work here to give me a full art of the working process, working style, and how to become an employee with responsibility."
+    },
+    {
+      "name": "Wareflex",
+      "fromDate": "August 2023",
+      "toDate": "Now",
+      "project": [{
+        "href":"https://platform.wareflex.io/",
+        "name": "Wareflex SAAS",
+        "position": "Fullstack",
+        "technical": ["NextJS", "NestJS", "Monorepo", "MongoDB"],
+        "description":"A saas software system for partner and client for manage warehouse, transportation and order.",
+        "responsibility": "Support to implement new feature and fix bug."
+      },{
+        "href":"https://platform.wareflex.io/",
+        "name": "Wareflex platform",
+        "position": "Fullstack",
+        "technical": ["NextJS", "NestJS", "Monorepo", "MongoDB"],
+        "description":"A technology platform connecting trusted logistics providers to businesses of all sizes across Vietnam.",
+        "responsibility": "Handle customized solution feature(create quotation, approve, delete, send message). Manage company and user in system feature."
+      },
+      {
+        "href":"https://wareflex.io",
+        "name": "Marketing website",
+        "position": "Fullstack",
+        "technical": ["NextJS", "NestJS", "Monorepo", "MongoDB"],
+        "description":"The landing page website introduces our service and product mission, and easy to user leave contact to connect with us. Optimized by SEO and responsive for multiple devices.",
+        "responsibility": "Init project, Implement UI from figma, handle API, discuss with the marketing team to get requirement. Admin management for Lead, Blog, Contact. Optimize website for SEO and Best practice."
+      }],
+      "detail": ""
+
     }
   ]
 }

@@ -1,5 +1,5 @@
-import Typed from 'react-typed';
-import './assets/css/intro.css';
+import Typed from "react-typed";
+import "./assets/css/intro.css";
 
 const Intro = () => {
   return (
@@ -12,7 +12,14 @@ const Intro = () => {
               <span className="text-slider-items"></span>
               <strong className="text-slider">
                 <Typed
-                  strings={['Back End Developer', 'Software Engineer']}
+                  strings={[
+                    "Fullstack Developer",
+                    "Software Engineer",
+                    "NodeJS Developer",
+                    "Web Developer",
+                    "Frontend Developer",
+                    "Backend Developer",
+                  ]}
                   typeSpeed={80}
                   backDelay={1100}
                   backSpeed={30}

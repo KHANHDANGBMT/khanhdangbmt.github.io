@@ -1,4 +1,5 @@
-import './assets/css/contact-me.css';
+import "./assets/css/contact-me.css";
+import LinkedinIcon from "./Icons/LinkedinIcon";
 
 const ContactMe = () => {
   return (
@@ -17,6 +18,15 @@ const ContactMe = () => {
         className="contact-me-mail"
       >
         Mail Me
+      </a>
+      <a
+        href="https://www.linkedin.com/in/khanhdangbmt/"
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        className="contact-me-mail"
+      >
+        <LinkedinIcon />
+        Linkedin
       </a>
     </div>
   );

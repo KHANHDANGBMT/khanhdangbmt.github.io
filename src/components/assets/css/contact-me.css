@@ -32,7 +32,7 @@
 }
 
 .contact-me-mail {
-  display: inline-block;
+  display: flex;
   text-decoration: none;
   text-decoration-skip-ink: auto;
   position: relative;
@@ -51,6 +51,9 @@
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
 }
 
 .contact-me-mail:hover {

@@ -1,18 +1,18 @@
-import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
-import './assets/css/about.css';
-import 'react-tabs/style/react-tabs.css';
-import './assets/css/experience.css';
-import listExp from '../json/experience.json';
-import { CheckIcon } from './assets/icons';
-import { useState } from 'react';
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
+import "./assets/css/about.css";
+import "react-tabs/style/react-tabs.css";
+import "./assets/css/experience.css";
+import listExp from "../json/experience.json";
+import { CheckIcon } from "./assets/icons";
+import { useState } from "react";
 
 const Experience = () => {
-  const [tabIndex, setTabIndex] = useState(2);
+  const [tabIndex, setTabIndex] = useState(3);
   const tabList = listExp.experience.map((item, index) => {
     return (
       <Tab active key={index}>
-        {item.name}{' '}
-        {index === listExp.experience.length - 1 ? <CheckIcon /> : ''}
+        {item.name}{" "}
+        {index === listExp.experience.length - 1 ? <CheckIcon /> : ""}
       </Tab>
     );
   });
@@ -32,10 +32,17 @@ const Experience = () => {
             <p className="exp-project-wrapper" key={index}>
               <p className="exp-project">
                 <p className="text">
-                  Name: <span className="text-highlight">{item.name}</span>
+                  Name:{" "}
+                  <a
+                    style={{ marginBottom: 12 }}
+                    href={item.href}
+                    className="hyper-link"
+                  >
+                    {item.name}
+                  </a>
                 </p>
                 <p className="exp-project-position">
-                  Position:{' '}
+                  Position:{" "}
                   <span className="text-highlight-desc">{item.position}</span>
                 </p>
                 {item.teamSize ? (
@@ -43,10 +50,10 @@ const Experience = () => {
                     Team size: <span>{item.teamSize}</span>
                   </p>
                 ) : (
-                  ''
+                  ""
                 )}
                 <p className="exp-project-technical-wrapper">
-                  Technical:{' '}
+                  Technical:{" "}
                   {item.technical.map((item) => (
                     <span className="label-custom">{item}</span>
                   ))}
@@ -56,14 +63,14 @@ const Experience = () => {
                     Description: <span>{item.description}</span>
                   </p>
                 ) : (
-                  ''
+                  ""
                 )}
                 {item.responsibility ? (
                   <p className="text">
                     Responsibility: <span>{item.responsibility}</span>
                   </p>
                 ) : (
-                  ''
+                  ""
                 )}
               </p>
             </p>
